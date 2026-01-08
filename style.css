@@ -132,6 +132,7 @@ a {
     display: flex;
     justify-content: center;
     gap: 30px;
+    padding: 0 0 70px;
 }
 
 .list-banner .item {
@@ -158,4 +159,26 @@ a {
     padding: 0;
     text-align: center;
     color: #1F2937;
+}
+
+
+/* Quote section */
+
+.quote-section {
+    height: 400px;
+    background-color: #E5E7EB;
+}
+
+/* CTA section */
+
+.cta-section {
+    height: 300px;
+
+}
+
+/* Footer */
+
+footer {
+    height: 100px;
+    background-color: var(--dark-blue);
 }
