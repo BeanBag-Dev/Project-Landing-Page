@@ -3,11 +3,12 @@
 }
 
 body {
+    margin: 0;
     font-family: "Roboto", sans-serif;
     display: flex;
     flex: 1;
     flex-direction: column;
-    background-color: #1F2937;
+    background-color: 
 }
 
 a {
@@ -15,12 +16,15 @@ a {
 }
 
 .header {  
-    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 10px;
 
     color: #E5E7EB;
+    background-color: #1F2937;;
+
+    box-sizing: border-box;
 }
 
 .header .company-name{
