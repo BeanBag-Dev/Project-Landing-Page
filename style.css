@@ -1,0 +1,32 @@
+* {
+    /*border: 1px solid red*/
+}
+
+body {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    color: white;
+    font-size: 42;
+}
+
+.link-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.link-wrapper a{
+    color: white;
+}
