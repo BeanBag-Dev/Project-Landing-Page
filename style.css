@@ -38,7 +38,7 @@ a {
 
 .link-wrapper {
     display: flex;
-    gap: 20px;
+    gap: 25px;
     font-size: 18px;
 }
 
@@ -52,12 +52,44 @@ a {
 
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    gap: 40px;
+    padding: 50px;
+}
+
+.hero-banner .hero-left{
+    width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 8px;
+}
+
+.hero-banner .hero-right{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+
+}
+
+.hero-right .placeholder {
+    color: var(--secondary-white);
+    background-color: rgb(132, 132, 132);
+
+    flex: 1;             /* Tells it to fill the parent container */
+    display: flex;       /* Allows you to center the text inside */
+    align-items: center; 
+    justify-content: center;
 }
 
 .hero-banner h1{
     color: #F9FAF8;
     font-size: 48px;
+    font-weight: 900;
+    margin: 0;
 }
 
 .hero-banner .description{
@@ -67,4 +99,8 @@ a {
 .hero-banner button{
     background-color: #3882F6;
     color: var(--secondary-white);
+    padding: 5px 20px 5px 20px;
+    border-radius: 5%;
+    font-size: 15px;
+    
 }
