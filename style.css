@@ -3,8 +3,9 @@
 }
 
 body {
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     display: flex;
+    flex: 1;
     flex-direction: column;
     background-color: #1F2937;
 }
@@ -14,19 +15,25 @@ a {
 }
 
 .header {  
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 
-    color: white;
-    font-size: 42;
+    color: #E5E7EB;
+}
+
+.header .company-name{
+    font-size: 24px;
+    font-weight: 900;
 }
 
 .link-wrapper {
     display: flex;
     gap: 20px;
+    font-size: 18px;;
 }
 
 .link-wrapper a{
-    color: white;
+    color: #E5E7EB;
 }
