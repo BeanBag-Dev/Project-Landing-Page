@@ -97,6 +97,11 @@ a {
     margin: 0;
 }
 
+.hero-highlight {
+    color: #7dafff;
+    text-shadow: 0 0 3px #7aadff;
+}
+
 .hero-banner .description{
     color: var(--secondary-white);
 }
