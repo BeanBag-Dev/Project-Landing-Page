@@ -264,11 +264,13 @@ a {
 /* Footer */
 
 footer {
-    height: 70px;
+    height: 80px;
+    padding: 0px;
     background-color: var(--dark-blue);
     display: flex;
     justify-content: center;
     align-items: center;
+    clip-path: ellipse(70% 100% at 50% 100%);
 }
 
 .copyright {
