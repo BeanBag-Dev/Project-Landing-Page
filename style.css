@@ -59,6 +59,7 @@ a {
     justify-content: center;
     gap: 40px;
     padding: 80px;
+    clip-path: ellipse(120% 100% at 50% 0%);
 }
 
 .hero-banner .hero-left{
@@ -88,6 +89,7 @@ a {
     display: flex;       /* Allows you to center the text inside */
     align-items: center; 
     justify-content: center;
+    border-radius: 8px;
 }
 
 .hero-banner h1{
@@ -107,14 +109,26 @@ a {
 }
 
 .hero-banner button{
-    background-color: #3882F6;
+    background-color: #3882F6 ;
+    border: 3px solid #3882F6;
+
     color: var(--secondary-white);
     padding: 5px 20px 5px 20px;
     border-radius: 5px;
     font-size: 15px;
-    border: 3px solid #3882F6;
+    transition: background-color 0.2s ease, border 0.2s ease;
 }
 
+.hero-banner button:hover{
+    background-color: rgb(119, 171, 253);
+    border: 3px solid rgb(119, 171, 253);
+}
+
+.hero-banner button:active{
+    transform: scale(0.95);
+    background-color: rgb(164, 199, 255);
+    border: 3px solid rgb(164, 199, 255);
+}
 
 
 
