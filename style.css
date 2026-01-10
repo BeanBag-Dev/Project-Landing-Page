@@ -51,6 +51,17 @@ a {
 
 /*hero banner*/
 
+@keyframes fade-down {
+  from { 
+        opacity: 0;
+        transform: translateY(-20px)  scale(0.9)
+    }
+  to { 
+        opacity: 1; 
+        transform: translateY(0px)  scale(1)
+    }
+}
+
 .hero-banner {
     height: 300px;
     background-color: var(--dark-blue);
@@ -70,6 +81,7 @@ a {
     justify-content: center;
     align-items: start;
     gap: 8px;
+    animation: fade-down .7s ease-out;
 }
 
 .hero-banner .hero-right{
@@ -78,7 +90,7 @@ a {
     flex-direction: row;
     justify-content: flex-start;
     align-items: stretch;
-    box-shadow: 5px 5px 10px rgba(0,0,0,.4)
+    box-shadow: 5px 5px 10px rgba(0,0,0,.4);
 }
 
 .hero-right .placeholder {
@@ -117,11 +129,15 @@ a {
     border-radius: 5px;
     font-size: 15px;
     transition: background-color 0.2s ease, border 0.2s ease;
+
+    transition: scale 0.1s ease-out;
 }
 
 .hero-banner button:hover{
     background-color: rgb(119, 171, 253);
     border: 3px solid rgb(119, 171, 253);
+    scale: 1.05;
+    
 }
 
 .hero-banner button:active{
